@@ -79,8 +79,6 @@ veille-reputation-brauman/
 ├── workflow/
 │   └── Test.workflow.ts            ← implémentation du workflow de test
 ├── skills/                         ← fiches de méthode (3)
-├── sticker-nodes.md                ← aide-mémoire des nœuds (textuelle)
-├── sticker-cartographie.html       ← aide-mémoire des nœuds (visuel, ouvrable dans un navigateur)
 └── video/
     └── README.md                   ← démonstration enregistrée (à venir)
 ```
