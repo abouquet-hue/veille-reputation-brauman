@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="520" viewBox="0 0 1180 520" font-family="ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif">
+<rect width="1180" height="520" rx="16" fill="#f8f9fd"/>
+<rect x="108" y="70" width="204" height="46" rx="12" fill="#FDF3E3" stroke="#f59e0b" stroke-width="2"/>
+<text x="210" y="99" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">Test Trigger</text>
+<text x="210" y="82" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#f59e0b">Déclencheurs</text>
+<rect x="108" y="132" width="204" height="46" rx="12" fill="#FDF3E3" stroke="#f59e0b" stroke-width="2"/>
+<text x="210" y="161" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">Test Data</text>
+<text x="210" y="144" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#f59e0b">Déclencheurs</text>
+<rect x="108" y="194" width="204" height="46" rx="12" fill="#FDF3E3" stroke="#f59e0b" stroke-width="2"/>
+<text x="210" y="223" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">RSS Feed QVEMA</text>
+<text x="210" y="206" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#f59e0b">Déclencheurs</text>
+<rect x="108" y="256" width="204" height="46" rx="12" fill="#FDF3E3" stroke="#f59e0b" stroke-width="2"/>
+<text x="210" y="285" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">RSS Feed QVEMA (FR)</text>
+<text x="210" y="268" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#f59e0b">Déclencheurs</text>
+<rect x="108" y="318" width="204" height="46" rx="12" fill="#FDF3E3" stroke="#f59e0b" stroke-width="2"/>
+<text x="210" y="347" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">RSS Feed David Brauman</text>
+<text x="210" y="330" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#f59e0b">Déclencheurs</text>
+<rect x="108" y="380" width="204" height="46" rx="12" fill="#FDF3E3" stroke="#f59e0b" stroke-width="2"/>
+<text x="210" y="409" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">RSS Feed Brauman</text>
+<text x="210" y="392" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#f59e0b">Déclencheurs</text>
+<rect x="108" y="442" width="204" height="46" rx="12" fill="#FDF3E3" stroke="#f59e0b" stroke-width="2"/>
+<text x="210" y="471" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">RSS Feed Brauman and K</text>
+<text x="210" y="454" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#f59e0b">Déclencheurs</text>
+<rect x="328" y="70" width="204" height="46" rx="12" fill="#F4EEFC" stroke="#9333ea" stroke-width="2"/>
+<text x="430" y="99" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">No Operation</text>
+<text x="430" y="82" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#9333ea">Tri & IA</text>
+<rect x="328" y="132" width="204" height="46" rx="12" fill="#F4EEFC" stroke="#9333ea" stroke-width="2"/>
+<text x="430" y="161" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">Remove Duplicates</text>
+<text x="430" y="144" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#9333ea">Tri & IA</text>
+<rect x="328" y="194" width="204" height="46" rx="12" fill="#F4EEFC" stroke="#9333ea" stroke-width="2"/>
+<text x="430" y="223" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">AI Agent</text>
+<text x="430" y="206" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#9333ea">Tri & IA</text>
+<rect x="548" y="70" width="204" height="46" rx="12" fill="#EAF4FE" stroke="#3b82f6" stroke-width="2"/>
+<text x="650" y="99" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">If</text>
+<text x="650" y="82" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#3b82f6">Croisement</text>
+<rect x="548" y="132" width="204" height="46" rx="12" fill="#EAF4FE" stroke="#3b82f6" stroke-width="2"/>
+<text x="650" y="161" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">Alert Router</text>
+<text x="650" y="144" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#3b82f6">Croisement</text>
+<rect x="548" y="194" width="204" height="46" rx="12" fill="#EAF4FE" stroke="#3b82f6" stroke-width="2"/>
+<text x="650" y="223" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">Keep Non Alerts</text>
+<text x="650" y="206" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#3b82f6">Croisement</text>
+<rect x="778" y="70" width="204" height="46" rx="12" fill="#ECFbf3" stroke="#22c55e" stroke-width="2"/>
+<text x="880" y="99" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">Append row in sheet</text>
+<text x="880" y="82" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#22c55e">Actions</text>
+<rect x="778" y="132" width="204" height="46" rx="12" fill="#ECFbf3" stroke="#22c55e" stroke-width="2"/>
+<text x="880" y="161" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">Alert Email</text>
+<text x="880" y="144" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#22c55e">Actions</text>
+<rect x="778" y="194" width="204" height="46" rx="12" fill="#ECFbf3" stroke="#22c55e" stroke-width="2"/>
+<text x="880" y="223" text-anchor="middle" font-size="14.5" font-weight="700" fill="#2b2b33">Journal Non Alerts</text>
+<text x="880" y="206" text-anchor="middle" font-size="9" letter-spacing="1.2" fill="#22c55e">Actions</text>
+<line x1="532" y1="93" x2="532" y2="155" stroke="#b9b4c8" stroke-width="2.2"/>
+<circle cx="532.0" cy="124.0" r="5" fill="#7C5CFF"/>
+<line x1="752" y1="93" x2="752" y2="155" stroke="#b9b4c8" stroke-width="2.2"/>
+<circle cx="752.0" cy="124.0" r="5" fill="#7C5CFF"/>
+<line x1="752" y1="155" x2="982" y2="93" stroke="#b9b4c8" stroke-width="2.2"/>
+<circle cx="867.0" cy="124.0" r="5" fill="#7C5CFF"/>
+<line x1="752" y1="155" x2="982" y2="155" stroke="#b9b4c8" stroke-width="2.2"/>
+<circle cx="867.0" cy="155.0" r="5" fill="#7C5CFF"/>
+<line x1="752" y1="217" x2="982" y2="217" stroke="#b9b4c8" stroke-width="2.2"/>
+<circle cx="867.0" cy="217.0" r="5" fill="#7C5CFF"/>
+<line x1="312" y1="341" x2="532" y2="93" stroke="#b9b4c8" stroke-width="2.2"/>
+<circle cx="422.0" cy="217.0" r="5" fill="#7C5CFF"/>
+<line x1="312" y1="217" x2="532" y2="93" stroke="#b9b4c8" stroke-width="2.2"/>
+<circle cx="422.0" cy="155.0" r="5" fill="#7C5CFF"/>
+<line x1="312" y1="403" x2="532" y2="93" stroke="#b9b4c8" stroke-width="2.2"/>
+<circle cx="422.0" cy="248.0" r="5" fill="#7C5CFF"/>
+<line x1="312" y1="465" x2="532" y2="93" stroke="#b9b4c8" stroke-width="2.2"/>
+<circle cx="422.0" cy="279.0" r="5" fill="#7C5CFF"/>
+<line x1="312" y1="279" x2="532" y2="93" stroke="#b9b4c8" stroke-width="2.2"/>
+<circle cx="422.0" cy="186.0" r="5" fill="#7C5CFF"/>
+<line x1="312" y1="93" x2="312" y2="155" stroke="#b9b4c8" stroke-width="2.2"/>
+<circle cx="312.0" cy="124.0" r="5" fill="#7C5CFF"/>
+<line x1="312" y1="155" x2="532" y2="93" stroke="#b9b4c8" stroke-width="2.2"/>
+<circle cx="422.0" cy="124.0" r="5" fill="#7C5CFF"/>
+<rect x="60" y="400" width="320" height="150" rx="14" fill="#FFF9E3" stroke="#E2CE7A" stroke-width="2" stroke-dasharray="7,5"/>
+<text x="220" y="430" text-anchor="middle" font-size="16" font-weight="800" fill="#6b5a12">📝 Sticky Note</text>
+<text x="80" y="456" font-size="12.5" fill="#453c1d">• Le brief de départ, cloué au tableau.</text>
+<text x="80" y="476" font-size="12.5" fill="#453c1d">• Jamais exécutée : pure documentation.</text>
+<text x="80" y="496" font-size="12.5" fill="#453c1d">• Détail des briques → sticker-nodes.md.</text>
+<text x="80" y="516" font-size="11" fill="#7a6c2e">Déplaçable à la souris dans l'éditeur.</text>
+</svg>
