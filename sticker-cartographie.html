@@ -1,0 +1,66 @@
+<!doctype html><html><head><style>
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.5 ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;color:#2b2b33;background:transparent}
+.wrap{max-width:640px;margin:0 auto;padding:10px 14px}
+h1{font-size:1.15em;display:flex;gap:9px;justify-content:center;text-transform:uppercase;letter-spacing:.06em}
+.sub{text-align:center;color:#666;font-size:.85em;margin:-6px 0 14px}.badge{width:30px;height:30px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;font-size:.95rem}
+.grid{display:flex;align-items:flex-start}
+col{display:flex;flex-direction:column;flex:1}
+sec{margin:0 4px 16px;border-radius:12px;padding:0;background:rgba(255,255,255,.96);border:1px solid #e4e2ea;box-shadow:0 1px 3px rgba(50,45,90,.08)}
+h2{display:flex;align-items:center;gap:8px;font-size:.78rem;letter-spacing:.05em;text-transform:uppercase;padding:7px 12px;font-weight:700;color:#565061}
+h2 .sq{width:10px;height:10px;border-radius:3px;flex:none}
+.rowe{display:flex;align-items:flex-start;border-top:1px solid #f0eff6;padding:8px 12px}
+.rowe:first-of-type{border-top:none}
+bname{font-weight:700;white-space:nowrap;padding-right:10px;flex:none;min-width:116px}
+brief{color:#565061;flex:1}
+.c1{background:#fdf3e3}.c1 h2{color:#b45309}.c1 h2 .sq{background:#f59e0b}
+.c2{background:#f4eefc}.c2 h2{color:#7c3aed}.c2 h2 .sq{background:#9333ea}
+.c3{background:#eaf4fe}.c3 h2{color:#1d4ed8}.c3 h2 .sq{background:#3b82f6}
+.c4{background:#ecfbf3}.c4 h2{color:#15803d}.c4 h2 .sq{background:#22c55e}
+.flow{margin-top:4px;border:1px dashed #c7c3d4;border-radius:12px;padding:10px 8px;background:#faf9fd}
+.frow{display:flex;align-items:center;justify-content:space-between;position:relative}
+.frow+.frow{margin-top:7px}
+fstep{font-size:.72rem;text-align:center;background:#fff;border:1px solid #e4e2ea;border-radius:8px;padding:5px 7px;line-height:1.3;flex:none}
+farr{color:#999;font-size:.7rem}
+.cap{font-size:.68rem;color:#888;text-align:center;margin-top:8px}
+@media print{body{background:#fff}.wrap{max-width:100%}}
+</style></head><body>
+<div class="wrap">
+<h1><span class="badge c1" style="background:#f59e0b;color:#fff">🧪</span> Cartographie de la veille <span class="badge c2" style="background:#9333ea;color:#fff">🧠</span></h1>
+<p class="sub">Article négatif repéré → ligne dans « Feuille 1 » + mail d'alerte · Brauman and K</p>
+
+<div class="grid">
+<col>
+<section class="c1"><h2><span class="sq"></span> ① Déclencheurs · qui c'est qui lance</h2>
+<div class="rowe"><span class="bname">Test Trigger</span><span class="brief">Simuler la vie réelle : un clic, toute la chaîne se rejoue</span></div>
+<div class="rowe"><span class="bname">Test Data</span><span class="brief">Fabrique un faux article <b>négatif</b> pour s'entraîner</span></div>
+<div class="rowe"><span class="bname">RSS Feed ×5</span><span class="brief">Surveille QVEMA, David Brauman, Brauman &amp; Cie toutes les minutes</span></div>
+</section>
+<section class="c2"><h2><span class="sq"></span> ② Le tri · qui c'est qui juge</h2>
+<div class="rowe"><span class="bname">No Operation</span><span class="brief">La gare de triage : tout le monde passe par là</span></div>
+<div class="rowe"><span class="bname">Remove Duplicates</span><span class="brief">Jamais 2 alertes pour le même article</span></div>
+<div class="rowe"><span class="bname">AI Agent</span><span class="brief">Le cerveau : « cet article <b>négatif</b> ? » + niveau de gravité</span></div>
+</section>
+<col>
+<section class="c3"><h2><span class="sq"></span> ③ Le croisement · où on l'envoie</h2>
+<div class="rowe"><span class="bname">If</span><span class="brief">Le carrefour : <b>négatif</b> 👉 à gauche, <b>neutre</b> 👉 à droite</span></div>
+<div class="rowe"><span class="bname">Alert Router</span><span class="brief">Le chef d'alerte : « mail + Feuille 1 » sous son aile</span></div>
+<div class="rowe"><span class="bname">Keep Non Alerts</span><span class="brief">Le filtre du calme : ne laissent passer que les neutres</span></div>
+</section>
+<section class="c4"><h2><span class="sq"></span> ④ Les actions · où ça atterrit</h2>
+<div class="rowe"><span class="bname">Append row in sheet</span><span class="brief">Écrire la ligne dans « Feuille 1 » : l'historique des alertes</span></div>
+<div class="rowe"><span class="bname">Alert Email</span><span class="brief">Envoyer le mail « <b>alerte négative</b> » sur Gmail</span></div>
+<div class="rowe"><span class="bname">Journal Non Alerts</span><span class="brief">Ranger les neutres dans « Journal » — silencieusement</span></div>
+<div class="rowe"><span class="bname">Sticky Note</span><span class="brief">Le brief de départ, cloué au tableau pour la route</span></div>
+</section>
+</col>
+</div>
+
+<div class="flow">
+<div class="frow"><fstep>📝 Articles<br><b>vrais</b> ou <b>faux</b></fstep><farr>▼</farr></div>
+<div class="frow"><fstep>🧠 Gare de tri → 🛡️ Anti-doublons → 🧠 IA juge</fstep><farr>▼</farr></div>
+<div class="frow"><fstep style="background:#fff7f2;border-color:#fbbf24">⚠ <b>NÉGATIF</b> → 📄 Feuille 1 + ✉️ mail</fstep><farr>│</farr><fstep style="background:#f0fdf4;border-color:#86efac">😌 <b>NEUTRE</b> → 🗒️ Journal</fstep></div>
+<p class="cap">Un même flow, deux chemins — c'est tout le système.</p>
+</div>
+</div>
+</body></html>
