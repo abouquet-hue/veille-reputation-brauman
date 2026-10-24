@@ -80,7 +80,8 @@ veille-reputation-brauman/
 │   └── Test.workflow.ts            ← implémentation du workflow de test
 ├── skills/                         ← fiches de méthode (3)
 └── video/
-    └── README.md                   ← démonstration enregistrée (à venir)
+    ├── video.mp4                   ← la démo screen-cam (23 Méga)
+    └── README.md                   ← comment visionner la démo
 ```
 
 ---
