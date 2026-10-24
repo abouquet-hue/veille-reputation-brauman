@@ -1,0 +1,152 @@
+Et bonjour. Donc du coup, je vais vous présenter aujourd'hui mon N8N de qualité ou pas, on va regarder ça ensemble.
+
+Donc voici, euh, mon petit N8N que j'ai fait.
+
+Donc le but de mon N8N, c'est, euh, 'fin mon workflow, c'est de vraiment faire une veille assez poussée pour mon entreprise Broman NK ainsi que mon patron David Broman, parce qu'on va participer à une émission télé.
+
+Donc notre risque, c'est de vraiment avoir, euh, des critiques assez virulentes envers notre entreprise.
+
+Et moi, mon but, c'est de, d'être au courant un peu de tout ce qui se dit sur les réseaux sociaux avant que ça parte un peu en cacahuète.
+
+C'est pour ça qu'on voit ici plusieurs triggers, voilà, avec des mots différents.
+
+Tout ça, c'est rattaché directement du coup à Google Alert.
+
+Et ici, on a celui d'essai. Donc ça a créé des fausses actualités négatives pour voir si le parcours se passe bien.
+
+On verra ça après. Ensuite, ici, j'ai un centre de tri qui permet de, d'accumuler toute la data quand j'active un, un trigger, ce qui permet que là, tout soit trié en une seule boîte et qu'on envoie directement tout au Remove Duplicates, qui sert, lui, à voir si on a déjà vu ou pas, euh, cette actualité.
+
+Et ça vérifie via l'API, si jamais. Une fois que ça a été vérifié ici et que ça peut toujours passer après, là, ça va être l'IA qui va me faire un petit résumé, euh, de ce qui est dit dans l'annonce.
+
+Donc ça, c'est plutôt intéressant. Ça me permet, moi, savoir qu'est-ce qui a été dit.
+
+Euh, donc, je vais vous montrer vite fait l'intérieur.
+
+Euh, donc là, le prompt, euh, c'est moi qui l'ai fait avec l'aide, bah du coup, de celui que vous nous avez prêté, enfin passé.
+
+Donc là, on peut voir, on va le regarder vite fait, euh, que là, en goal, en gros, j'explique ce que je veux.
+
+Euh, donc je lui dis, voilà, que moi, je fais un fai-- un, une veille médiatique.
+
+Je lui explique pourquoi, quelle situation, d'où ça vient.
+
+Ensuite, le contexte, bah pareil, là, je lui dis comment ça se passe un petit peu dans le prompt, ce qu'il va faire, les règles strictes, etc., pardon.
+
+Ensuite, je lui donne des exemples parce que vous nous aviez dit que c'était important d'avoir des exemples.
+
+Donc j'en ai mis deux. Euh, euh, si je me souviens bien, oui, c'était deux.
+
+Donc voilà, exemple deux, un négatif, un positif.
+
+Et ça me permet, euh, bah ça permet de savoir un peu comment l'IA doit trier et, euh, au moins, il est plus précis.
+
+Donc voilà à peu près ce que j'ai mis dans mon prompt.
+
+J'en ai même mis trois. Voilà. Ensuite, euh, une fois que c'est passé dans l'IA, donc du coup, là, il y a deux chemins, euh, différents.
+
+On va avoir un-- On va passer par celui du haut d'abord.
+
+Donc déjà, ça va être selon si c'est positif ou négatif ou neutre.
+
+Voilà. Donc, si c'est négatif, ça va monter en haut, il va y avoir un if qui va me refiltrer.
+
+Et quand c'est négatif, ça va passer par ici, bah c'est le même bouton que en bas.
+
+Euh, donc en gros, ça, ça permet de bien tasser, mettre tout dans une seule bulle.
+
+Et après, ça va envoyer dans un Excel, donc du coup, qu'on regardera après, en haut, ça va mettre, euh, un titre, le lien, expliquer qu'est-ce qui s'est dit dans cet article et pourquoi c'est négatif.
+
+Et je vais recevoir une alerte directement sur ma boîte mail perso.
+
+Comme ça, ça me permettra d'être au courant, sachant que j'ai mis mon mail, j'ai mis une alerte.
+
+Donc, euh, comme ça, ça me fait vibrer mon téléphone à chaque fois.
+
+Et en bas, c'est pour les articles neutres.
+
+Voilà. Euh, si jamais, en gros, c'est vraiment, euh, un filtre qui ne laisse passer que les articles vraiment, vraiment, vraiment neutres.
+
+Voilà. Donc ça, c'est à peu près tout. Et, euh, du coup, je vais vous montrer quand ça marche.
+
+Donc, on va utiliser celui-là, euh, pour le premier essai.
+
+Donc là, on va voir que ça va s'exécuter.
+
+C'est en train de charger. Je capte pas très bien chez moi, je suis désolée.
+
+Donc voilà. Là, on voit que, bah, du coup, l'essai, je l'ai fait déjà ce matin.
+
+Donc je vais vous montrer les résultats que ça a faits.
+
+Enfin, je l'ai fait hier soir. Donc là, on peut voir, ça s'est affiché.
+
+Ça me met l'heure, ça me met la date. Ensuite, ça me met, bah, le lien.
+
+Euh, donc là, c'était un exemple. L'alerte, bah du coup, oui, c'en est une.
+
+Et après, bah que c'était un test démo et que, euh, ça m'explique à peu près, euh, un peu, à peu près tout quoi.
+
+Et, euh, je vais vous montrer. Du coup, ceux-là, je les ai pas activés de la journée, donc, euh, c'est possible que j'aie un résultat.
+
+Donc là, non, toujours pas. Celui-là, toujours pas.
+
+Celui-là, toujours pas. Celui-là, toujours pas.
+
+Et celui-là, il y a peut-être un résultat.
+
+Donc faut attendre que ça charge, etc. Ça va être traité par l'IA.
+
+Et donc là, on peut voir que c'était un neutre, parce que là, ça l'a balancé directement en bas.
+
+Donc c'est que c'est parce que c'était pas intéressant de m'envoyer un mail et que en bas, pareil, c'est, c'était pas intéressant.
+
+Donc, euh, il m'a mis, euh, keep non alerte.
+
+Donc pas d'alerte, pas besoin d'alerte. Voilà, c'est à peu près tout ce que je peux dire, euh, je crois, sur, euh, mon workflow.
+
+Euh, et puis, euh, je vais vous montrer quand même le mail que ça fait.
+
+Là, je l'ai pas ouvert celui-là, mais voilà, ça m'envoie une petite alerte comme ça.
+
+Test démo, c'est mon client, ça me met le lien.
+
+Comme ça, chaque fois, je peux cliquer et, euh, et voir où c'est, qu'est-ce que c'est, etc.
+
+Donc voilà. Et, euh, ensuite, du coup, pour tout ce qui est, euh, les commandes, je sais qu'il y a quatre grandes familles.
+
+Euh, j'avoue que j'ai pas très bien compris les commandes, mais je vais essayer d'expliquer comme je peux avec ce que j'ai compris.
+
+Mais je sais qu'il y a quatre grandes familles.
+
+Euh, il y en a une, c'est plus pour configurer, euh, avec tout ce qui est init.
+
+Euh, il y en a une autre, ça va être pour synchroniser.
+
+Euh, ça, ça va être le pool. Euh, je sais qu'on l'utilisait beaucoup, par exemple, bah justement pour que notre Open Chamber aille sur directement N8N.
+
+Ensuite, il y a tester, euh, bah tout ce qui est tester, le test.
+
+Et, euh, enfin, il y a tout ce qui est découvrir.
+
+Euh, puis je crois que c'est, c'est à peu près tout.
+
+Ouais. Et après, si, je crois, il y a Éditer.
+
+Bon, je suis pas très au point et j'ai pas voulu faire semblant.
+
+Je suis pas très au point dessus. Et après, bah pour le petit résumé du coup du cours, de ce que j'ai apprécié ou moins apprécié, j'avoue que j'aurais préféré avoir plus de temps d'échange avec vous directement, euh, parce que c'est vrai que j'étais en difficulté, en fait, pas mal, euh, au début.
+
+Euh, j'ai pas tout compris. J'ai eu du mal à me mettre dedans, du coup, ce qui fait que j'avoue que je pense que j'ai pas été au bout de ce que j'aurais pu apprendre et je trouve ça un peu dommage.
+
+Après, c'était très intéressant, etc. Mais j'avoue que la plupart du temps, j'étais un peu larguée.
+
+Donc, euh, donc voilà. Euh, après, c'était très agréable d'échanger avec vous.
+
+J'aurais préféré que ce soit un peu plus long.
+
+Et puis bah, c'est tout ce que, ce que j'ai à dire.
+
+Voilà. Je vous souhaite une bonne journée et un bon week-end.
+
+Au revoir.
+
